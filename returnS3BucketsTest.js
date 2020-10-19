@@ -23,10 +23,10 @@ exports.handler = (event, context, callback) => {
 			//  New Code begins here
 			var counter=0;
 			for(var i  in allBuckets){
-				if(allBuckets[i].Name[0] === "a")
+				if(allBuckets[i].Name[0] === "l")
 					counter++;
 			}
-			console.log("Total buckets starting with a: " + counter);
+			console.log("Total buckets starting with l: " + counter);
 
 			callback(null, {
 				statusCode: 200,
